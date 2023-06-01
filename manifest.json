@@ -1,0 +1,14 @@
+{
+    "name": "Ofuscar Datos",
+    "version": "0.0.1",
+    "description": "Ofuscar el correo y telefono celular de los clientes con asteriscos (*)",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "serviceWorker.js"
+    },
+    "host_permissions": ["<all_urls>"],
+    "permissions": ["scripting", "storage"],
+    "options_ui": {
+        "page": "opt.html"
+    }
+}

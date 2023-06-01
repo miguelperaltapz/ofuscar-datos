@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Replace Words Extension</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="keywords-holder">
+        <div class="keyword-row">
+            <div class="input-item">
+                <label>Palabra</label>
+                <input type="text" value="" placeholder="Palabra que quieres reemplazar...">
+            </div>
+            <div class="input-item">
+                <label>Selecciona una opcion</label>
+                <select>
+                    <option value="0">Remove</option>
+                    <option value="1">Replace</option>
+                </select>
+            </div>
+            <div class="input-item hidden">
+                <label>Reemplazala por</label>
+                <input type="text" value="" placeholder="Palabra que remplazara">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="add-keyword">Agregar</button>
+    </div>
+
+    <div id="status"></div>
+    <button id="save">Save</button>
+
+    <script src="opt.js"></script>
+</body>
+
+</html>
